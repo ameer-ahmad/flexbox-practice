@@ -42,8 +42,31 @@ nav ul {
 
 .intro {
     display: flex;
+    flex-wrap: wrap;
 }
 
-img {
-    height: 20rem;
+.intro-image {
+    flex: 1 1 30rem;
+    background: lightblue;
+}
+
+.intro img {
+    width: 100%;
+}
+
+.intro-text {
+    flex: 1 1 30rem;
+    background: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text h2 {
+    padding: 2rem;
+}
+
+.intro-text p {
+    padding: 1rem;
 }
